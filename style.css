@@ -1,0 +1,47 @@
+body{
+    background-size: cover;
+    font-family: 'Orelega One', cursive;
+}
+
+.header{
+    font-size: 30px;
+    width: 100%;
+    color: whitesmoke;
+    margin: 0px;
+    border-radius: 15px;
+    box-shadow: 2px 5px 2px rgb(173, 133, 38);
+    margin-top: 10px;
+}
+
+.note{
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+.speed_div{
+    float: left;
+    margin-top: 40px;
+}
+
+.volume_div{
+    float: right;
+    margin: 40px;
+}
+
+.speed_img, .volume_img{
+    border-radius: 200px;
+    width: 200px;
+    margin-top: 300px;
+}
+
+#sone, #stwo{
+    font-size: 25px;
+    margin: 10px;
+}
+
+canvas{
+    border-radius: 20px;
+    border: 3px solid whitesmoke;
+    margin-top: 100px;
+    margin-right: 150px;
+}
